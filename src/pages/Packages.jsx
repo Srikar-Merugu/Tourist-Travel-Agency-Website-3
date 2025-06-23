@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Make sure Link is imported
 
 function Packages() {
   const [selectedType, setSelectedType] = useState("all");
@@ -273,13 +274,14 @@ function Packages() {
                       >
                         {expandedIndex === index ? "Hide Plan" : "Read More"}
                       </button>
-                      <a
-                        href="#"
+                      <Link
+                        to="/booking"
+                        state={{ selectedDestination: pkg.location }} // Pass the location here
                         className="btn btn-sm btn-primary px-3"
                         style={{ borderRadius: "0 30px 30px 0" }}
                       >
                         Book Now
-                      </a>
+                      </Link>
                     </div>
                     {expandedIndex === index && (
                       <div className="text-start mt-3">
