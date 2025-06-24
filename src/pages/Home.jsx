@@ -533,6 +533,14 @@ export default function Home() {
                     <option value="thailand">Thailand</option>
                     <option value="indonesia">Indonesia</option>
                     <option value="malaysia">Malaysia</option>
+                    <option value="malaysia">Paris</option>
+                    <option value="malaysia">Maldives</option>
+                    <option value="malaysia">Tirupati</option>
+                    <option value="malaysia">Manali</option>
+                    <option value="malaysia">Udaipur</option>
+                    <option value="malaysia">Kashmir</option>
+                    <option value="malaysia">Malaysia</option>
+
                   </select>
                   <label htmlFor="select1">Destination</label>
                 </div>
