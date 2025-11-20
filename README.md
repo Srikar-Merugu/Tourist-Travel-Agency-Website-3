@@ -1,126 +1,113 @@
-project:
-  name: "Tourist Travel Agency Website"
-  description: >
-    A modern, visually engaging Travel & Tourism Agency website showcasing destinations,
-    travel packages, services, reviews, and contact details through a clean UI and fully
-    responsive layout. Built using React and Tailwind CSS with a scalable component-driven
-    architecture suitable for production use.
-  live_demo: "https://tourist-travel-agency-website-3.vercel.app/"
+🌍 Tourist Travel Agency Website
 
-features:
-  - Fully responsive mobile-first UI
-  - Modern hero section with CTA
-  - Explore popular destinations
-  - Tour packages listing
-  - About & services information
-  - Testimonials and reviews
-  - Reusable React components
-  - Styled with Tailwind CSS
-  - Optimized performance & structure
+A modern, visually engaging Travel & Tourism Agency platform designed to showcase destinations, tour packages, services, and reviews with a clean, responsive UI.
+Built using React, Tailwind CSS, and a scalable component-driven architecture.
 
-stack:
-  frontend:
-    - React (18/19 ready)
-    - JavaScript (ES6+)
-    - Tailwind CSS
-    - React Icons
-  build_tools:
-    - Vite or CRA
-    - npm
-  deployment:
-    - Vercel
-    - Netlify (optional)
-    - GitHub Pages (optional)
 
-folder_structure: |
-  src/
-  ├── components/
-  │   ├── Header/
-  │   ├── Hero/
-  │   ├── Destinations/
-  │   ├── Services/
-  │   ├── About/
-  │   ├── Testimonials/
-  │   ├── Contact/
-  │   └── Footer/
-  │
-  ├── pages/
-  │   ├── Home.jsx
-  │   ├── About.jsx
-  │   ├── Packages.jsx
-  │   └── Contact.jsx
-  │
-  ├── assets/
-  │   ├── bg/
-  │   ├── icons/
-  │   └── destinations/
-  │
-  ├── data/
-  │   ├── packagesData.js
-  │   ├── testimonialsData.js
-  │   └── destinationsData.js
-  │
-  ├── styles/
-  ├── utils/
-  └── index.js
+✨ Key Features
 
-routes:
-  - path: "/"
-    description: "Homepage with hero, destinations, and sections"
-  - path: "/about"
-    description: "About information and services"
-  - path: "/packages"
-    description: "Tour packages listing page"
-  - path: "/contact"
-    description: "Contact information page"
+Fully responsive modern UI/UX
 
-installation:
-  steps:
-    - title: "Clone the repository"
-      command: |
-        git clone https://github.com/your-username/Tourist-Travel-Agency-Website.git
-        cd Tourist-Travel-Agency-Website
-    - title: "Install dependencies"
-      command: npm install
-    - title: "Run development server"
-      command: |
-        npm run dev
-        # or
-        npm start
-    - title: "Build for production"
-      command: npm run build
+Hero banner with CTA
 
-deployment:
-  vercel:
-    command: vercel deploy
-  netlify:
-    method: "Upload build folder or connect GitHub repo"
-  github_pages:
-    commands: |
-      npm install gh-pages
-      npm run build
-      npm run deploy
+Popular destinations showcase
 
-contribution:
-  welcome: true
-  ideas:
-    - Add new destination or package sections
-    - Improve UI animations
-    - Add gallery / blog pages
-    - Increase performance optimizations
-    - Improve responsiveness
-  steps:
-    - "Fork the repository"
-    - "Clone your fork"
-    - "Create a new feature branch"
-    - "Commit your changes"
-    - "Push the branch"
-    - "Open a Pull Request"
+Tour packages listing
 
-license:
-  type: "MIT License"
+About & Services sections
 
-maintainer:
-  name: "Merugu Srikar"
-  role: "Frontend Developer — LPU"
-  github: "https://github.com/YOUR_USERNAME"  # replace with your GitHub
+Testimonials & customer reviews
+
+Clean component architecture (React)
+
+Tailwind CSS for fast styling
+
+High performance & optimized assets
+
+
+🧰 Technology Stack
+
+| Category        | Stack                       |
+| --------------- | --------------------------- |
+| Frontend        | React (18/19 ready)         |
+| Styling         | Tailwind CSS                |
+| Icons           | React Icons                 |
+| Build System    | Vite / CRA (template based) |
+| Package Manager | npm                         |
+| Deployment      | Vercel                      |
+
+
+🚀 Live Demo
+🔗 Live Website: https://tourist-travel-agency-website-3.vercel.app/
+
+📁 Project Structure
+
+src/
+├── components/             # Reusable UI components
+│   ├── Header/
+│   ├── Hero/
+│   ├── Destinations/
+│   ├── Services/
+│   ├── About/
+│   ├── Testimonials/
+│   ├── Contact/
+│   └── Footer/
+│
+├── pages/                  # Page level components
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Packages.jsx
+│   └── Contact.jsx
+│
+├── assets/                 # Images & icons
+│   ├── bg/
+│   ├── icons/
+│   └── destinations/
+│
+├── data/                   # Static content (JSON-like)
+│   ├── packagesData.js
+│   ├── testimonialsData.js
+│   └── destinationsData.js
+│
+├── styles/                 # Global styles
+├── utils/                  # Helper logic
+└── index.js                # App entry point
+
+
+🧭 App Navigation
+| Route       | Purpose                         |
+| ----------- | ------------------------------- |
+| `/`         | Home page (Hero + Destinations) |
+| `/about`    | About & services overview       |
+| `/packages` | Tour packages listing           |
+| `/contact`  | Contact details page            |
+
+
+🚀 Getting Started
+
+Clone the repository and start the development server:
+git clone https://github.com/your-username/Tourist-Travel-Agency-Website.git
+cd Tourist-Travel-Agency-Website
+npm install
+npm run dev
+
+Then open in your browser:
+http://localhost:5173
+
+
+📦 Build for Production
+npm run build
+
+Preview Production Build
+npm run preview
+
+📄 License
+
+This project is licensed under the MIT License.
+
+
+👨‍💻 Maintainer
+
+Merugu Srikar
+Frontend Developer — LPU
+GitHub: (https://github.com/Srikar-Merugu)
