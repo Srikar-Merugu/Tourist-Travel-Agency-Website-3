@@ -1,131 +1,126 @@
 project:
   name: "Tourist Travel Agency Website"
   description: >
-    A modern, responsive Travel & Tourism Agency Frontend Website built using
-    React.js and Tailwind CSS. This project demonstrates reusable UI components,
-    production-ready folder structure, optimized assets, and a fully responsive UI.
-
+    A modern, visually engaging Travel & Tourism Agency website showcasing destinations,
+    travel packages, services, reviews, and contact details through a clean UI and fully
+    responsive layout. Built using React and Tailwind CSS with a scalable component-driven
+    architecture suitable for production use.
   live_demo: "https://tourist-travel-agency-website-3.vercel.app/"
 
 features:
-  - Fully responsive modern UI/UX
-  - Hero section with call-to-action
-  - Popular destinations showcase
+  - Fully responsive mobile-first UI
+  - Modern hero section with CTA
+  - Explore popular destinations
   - Tour packages listing
-  - About & Services section
-  - Testimonials section
-  - Contact info section
-  - Component-based React architecture
-  - Tailwind CSS styling
-  - Performance-optimized assets
+  - About & services information
+  - Testimonials and reviews
+  - Reusable React components
+  - Styled with Tailwind CSS
+  - Optimized performance & structure
+
+stack:
+  frontend:
+    - React (18/19 ready)
+    - JavaScript (ES6+)
+    - Tailwind CSS
+    - React Icons
+  build_tools:
+    - Vite or CRA
+    - npm
+  deployment:
+    - Vercel
+    - Netlify (optional)
+    - GitHub Pages (optional)
 
 folder_structure: |
-  Tourist-Travel-Agency-Website/
-  │── LICENSE
-  │── README.md
-  │── package.json
-  │── package-lock.json
-  │── travel-agency-react-template.jpg
-  │── node_modules/
+  src/
+  ├── components/
+  │   ├── Header/
+  │   ├── Hero/
+  │   ├── Destinations/
+  │   ├── Services/
+  │   ├── About/
+  │   ├── Testimonials/
+  │   ├── Contact/
+  │   └── Footer/
   │
-  ├── public/
-  │   ├── index.html
-  │   ├── favicon.ico
-  │   ├── manifest.json
-  │   └── assets/
+  ├── pages/
+  │   ├── Home.jsx
+  │   ├── About.jsx
+  │   ├── Packages.jsx
+  │   └── Contact.jsx
   │
-  └── src/
-      ├── App.js
-      ├── App.css
-      ├── index.js
-      │
-      ├── components/
-      │   ├── Header/
-      │   ├── Hero/
-      │   ├── Services/
-      │   ├── About/
-      │   ├── Destinations/
-      │   ├── Testimonials/
-      │   ├── Contact/
-      │   └── Footer/
-      │
-      ├── pages/
-      │   ├── Home.jsx
-      │   ├── About.jsx
-      │   ├── Packages.jsx
-      │   └── Contact.jsx
-      │
-      ├── assets/
-      │   ├── bg/
-      │   ├── icons/
-      │   └── destinations/
-      │
-      ├── data/
-      │   ├── packagesData.js
-      │   ├── testimonialsData.js
-      │   └── destinationsData.js
-      │
-      ├── hooks/
-      └── utils/
+  ├── assets/
+  │   ├── bg/
+  │   ├── icons/
+  │   └── destinations/
+  │
+  ├── data/
+  │   ├── packagesData.js
+  │   ├── testimonialsData.js
+  │   └── destinationsData.js
+  │
+  ├── styles/
+  ├── utils/
+  └── index.js
 
-tech_stack:
-  frontend:
-    - React.js
-    - Tailwind CSS
-    - JavaScript (ES6+)
-    - HTML5
-    - CSS3
-  build_tools:
-    - Vite or Create React App
-    - npm
+routes:
+  - path: "/"
+    description: "Homepage with hero, destinations, and sections"
+  - path: "/about"
+    description: "About information and services"
+  - path: "/packages"
+    description: "Tour packages listing page"
+  - path: "/contact"
+    description: "Contact information page"
 
 installation:
   steps:
-    - step: "Clone the repository"
+    - title: "Clone the repository"
       command: |
         git clone https://github.com/your-username/Tourist-Travel-Agency-Website.git
         cd Tourist-Travel-Agency-Website
-
-    - step: "Install dependencies"
+    - title: "Install dependencies"
       command: npm install
-
-    - step: "Run development server"
+    - title: "Run development server"
       command: |
         npm run dev
-        # OR
+        # or
         npm start
-
-    - step: "Build for production"
+    - title: "Build for production"
       command: npm run build
 
 deployment:
   vercel:
     command: vercel deploy
   netlify:
-    instructions: "Upload the build folder or connect GitHub repository."
+    method: "Upload build folder or connect GitHub repo"
   github_pages:
     commands: |
       npm install gh-pages
       npm run build
       npm run deploy
 
-future_improvements:
-  - Search functionality
-  - Backend integration (Node.js + MongoDB)
-  - Booking system
-  - Admin dashboard
-  - Price & filter system
+contribution:
+  welcome: true
+  ideas:
+    - Add new destination or package sections
+    - Improve UI animations
+    - Add gallery / blog pages
+    - Increase performance optimizations
+    - Improve responsiveness
+  steps:
+    - "Fork the repository"
+    - "Clone your fork"
+    - "Create a new feature branch"
+    - "Commit your changes"
+    - "Push the branch"
+    - "Open a Pull Request"
 
-contributing:
-  instructions:
-    - Fork the project
-    - Create a new feature branch
-    - Commit your changes
-    - Push the branch
-    - Open a pull request
+license:
+  type: "MIT License"
 
-license: "MIT License"
-
-author:
+maintainer:
   name: "Merugu Srikar"
   role: "Frontend Developer — LPU"
+  github: "https://github.com/YOUR_USERNAME"  # replace with your GitHub
