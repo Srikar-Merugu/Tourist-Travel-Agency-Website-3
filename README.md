@@ -40,10 +40,11 @@ High performance & optimized assets
 🚀 Live Demo
 🔗 Live Website: https://tourist-travel-agency-website-3.vercel.app/
 
-📁 Project Structure
+## 📁 Project Structure
 
+```txt
 src/
-├── components/             # Reusable UI components
+├── components/
 │   ├── Header/
 │   ├── Hero/
 │   ├── Destinations/
@@ -53,26 +54,25 @@ src/
 │   ├── Contact/
 │   └── Footer/
 │
-├── pages/                  # Page level components
+├── pages/
 │   ├── Home.jsx
 │   ├── About.jsx
 │   ├── Packages.jsx
 │   └── Contact.jsx
 │
-├── assets/                 # Images & icons
+├── assets/
 │   ├── bg/
 │   ├── icons/
 │   └── destinations/
 │
-├── data/                   # Static content (JSON-like)
+├── data/
 │   ├── packagesData.js
 │   ├── testimonialsData.js
 │   └── destinationsData.js
 │
-├── styles/                 # Global styles
-├── utils/                  # Helper logic
-└── index.js                # App entry point
-
+├── styles/
+├── utils/
+└── index.js
 
 🧭 App Navigation
 | Route       | Purpose                         |
